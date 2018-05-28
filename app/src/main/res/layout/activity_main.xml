@@ -9,7 +9,7 @@
         android:id="@+id/img1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable"
+        android:src="@drawable/ic_launcher_background"
         android:layout_marginTop="64dp"
         android:layout_centerHorizontal="true"/>
     <TextView
