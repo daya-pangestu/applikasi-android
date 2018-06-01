@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".write_messege" />
         <activity android:name=".inbox_messege" />
-        <activity android:name=".about"></activity>
+        <activity android:name=".about" />
     </application>
 
 </manifest>

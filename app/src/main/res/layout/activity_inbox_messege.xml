@@ -4,6 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".inbox_messege">
+    tools:context=".inbox_messege"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TableRow>
+        <TextView
+            android:text="nomor pengirim"
+            android:textSize="24dp" />
+    </TableRow>
+
+    <TableRow android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/NoPengirim"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="10"
+            android:inputType="phone" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="pesan"
+            android:textSize="24dp" />
+    </TableRow>
+
+    <TableRow android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/pesan2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="kunci"
+            android:textSize="24dp" />
+    </TableRow>
+
+    <TableRow android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/kunci2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="dekripsi" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil"
+            android:textSize="24dp" />
+    </TableRow>
+
+    <TableRow android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/hasil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical" />
+    </TableRow>
 
 </android.support.constraint.ConstraintLayout>
